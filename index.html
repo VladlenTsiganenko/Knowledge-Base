@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Homework-17</title>
+</head>
+
+<body>
+
+
+
+  <section class="section">
+    <div class="section__container flex">
+
+
+      <div class="section__check flex">
+        <h2 class="section__check-title" tabindex="0">Категории:</h2>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Динозавры</span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Медведи</span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Косули</span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Лисы</span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Волки</span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" class="custom-checkbox__input visually-hidden">
+          <span class="custom-checkbox__text">Олени и лоси</span>
+        </label>
+
+      </div>
+
+
+      <div class="section__select">
+        <select name="select" class="select">
+          <option value="">Материал</option>
+          <option value="Выбор_1">Древесина</option>
+          <option value="Выбор_2">Металл</option>
+          <option value="Выбор_3">Камень</option>
+          <option value="Выбор_1">Пластик</option>
+          <option value="Выбор_2">Композитный</option>
+          <option value="Выбор_3">Гипс</option>
+        </select>
+      </div>
+
+      <div id="map"></div>
+
+      <div class="customScroll" data-simplebar>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tenetur ducimus aliquam, ex itaque saepe perferendis
+        autem sint temporibus repudiandae asperiores? Fugit facere ea recusandae, quas repellendus est sapiente soluta
+        nobis repellat officia voluptatem impedit autem ratione? Illo molestias, doloremque obcaecati corrupti quas sint
+        enim quae autem placeat possimus, nisi natus amet blanditiis quibusdam vero, reprehenderit rem sapiente ducimus?
+        Provident animi atque at assumenda sunt cupiditate quod natus itaque voluptatum quisquam culpa rem ipsam, rerum
+        tempore aut nisi voluptates nemo vitae id tenetur labore iste eveniet ratione? Quam, dolor architecto. Placeat
+        tenetur laboriosam incidunt enim hic pariatur minima harum perspiciatis expedita id dicta similique esse, nam
+        omnis corporis explicabo voluptatem nesciunt et nostrum in odit! Quaerat aperiam quos inventore reiciendis minus
+        repellat ipsum saepe qui tempore fugit optio, quo, sint unde deleniti est enim harum rem dolore temporibus
+        voluptas alias beatae itaque error possimus. Voluptatem aliquam corporis, iure consectetur minus alias
+        voluptates quo veniam doloribus? Cum necessitatibus blanditiis quia quas ullam aspernatur delectus rerum eius
+        culpa voluptatem quibusdam dolorem quis officiis, voluptatum nobis. Obcaecati quia earum ad, eum, eaque fuga,
+        aperiam reiciendis itaque voluptas doloribus repudiandae blanditiis omnis nihil rerum quisquam cumque in
+        pariatur tenetur hic voluptates dolorum? Reprehenderit perspiciatis voluptas, atque nulla mollitia quia
+        temporibus cumque ut asperiores, culpa ducimus quis commodi vel ab! Nostrum, incidunt dicta veniam itaque nulla
+        placeat quaerat doloribus, asperiores odio praesentium ullam tempore ad numquam autem debitis non adipisci.
+        Nesciunt minus eligendi, cum explicabo officiis deleniti eveniet repellendus blanditiis quae ducimus iure
+        cupiditate eius a nostrum doloribus. Animi, eveniet. Id, repudiandae labore dicta tenetur quis vel dolore
+        veritatis atque itaque dignissimos laborum optio quisquam sit vero tempora non architecto consequatur. Ab nulla
+        pariatur asperiores impedit quibusdam voluptate, quas alias minus deleniti ut itaque dolor, provident natus a
+        odit modi veritatis vero! Itaque, ab consequatur?
+      </div>
+
+      <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+        <div class="form__wrapper form__wrapper-name">
+          <input class=" input name" type="text" name="Имя"  placeholder="Имя*" data-validate-field="name">
+        </div>
+
+        <div class="form__wrapper form__wrapper-tel">
+          <input class="input tel" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel"
+            data-validate-rules="phone">
+        </div>
+
+        <div class="form__wrapper form__wrapper-email">
+          <input  class=" input mail" type="email" name="email" placeholder="E-mail*" data-validate-field="mail">
+        </div>
+
+        <button class="form__btn" type="submit">Заказать</button>
+      </form>
+
+
+      <div class="tooltip">
+
+        <p class="tooltip__text">
+          Следует отметить, что социально-экономическое развитие способствует повышению качества переосмысления
+          внешнеэкономических политик.<span class="help" data-tippy-content="Глава 2, страница 176">
+            <svg class="tooltip__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8 3C7.33333 3 7 3.31919 7 3.95758C7 4.60026 7.33333 4.92159 8 4.92159C8.33333 4.92159 8.58233 4.83805 8.74699 4.67095C8.91566 4.49957 9 4.26178 9 3.95758C9 3.31919 8.66667 3 8 3ZM7.07831 13H8.91566V5.81491H7.07831V13Z"
+                fill="#BCBCBC" />
+            </svg>
+
+          </span>
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <script defer src="js/choices.min.js"></script>
+  <script defer src="js/select.js"></script>
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+  </script>
+  <script defer type="text/javascript" src="js/map.js"></script>
+  <script defer src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+  <script defer src="js/just-validate.min.js"></script>
+  <script defer src="js/inputmask.min.js"></script>
+  <script defer src="js/formvalidation.js"></script>
+  <script defer src="https://unpkg.com/@popperjs/core@2"></script>
+  <script defer src="https://unpkg.com/tippy.js@6"></script>
+  <script defer src="js/tooltip.js"></script>
+</body>
+
+</html>
